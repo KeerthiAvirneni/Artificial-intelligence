@@ -170,6 +170,7 @@ form input[type="submit"]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(../public/v1027-107-a.jpg);
 }
 
 .image__placeholder p {
