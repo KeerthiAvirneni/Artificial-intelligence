@@ -7,7 +7,7 @@
 }
 
 :root {
-  --clr-white: #FFFFFF;
+  --clr-white: #ffffff;
   --clr-black: #202020;
   --clr-blue: #6C63FF;
   --clr-blue-2: #4c46b6;
@@ -30,7 +30,7 @@ body {
   height: 100%;
   width: 100%;
   background: url(../public/v1027-107-a.jpg);
-  color: white;
+  color: black;
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
@@ -41,6 +41,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  
 }
 
 .nav__brand {
@@ -55,6 +56,7 @@ nav {
   color: var(--clr-blue);
   font-size: clamp(1.75em, 4vw, 2.5em);
   font-weight: 800;
+  text-align: center;
 }
 
 .nav__connect {
@@ -96,7 +98,9 @@ form {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
+  background-color: #fda6a6;
+  border-radius: 10px; 
+  padding: 15px;
   margin: 0 25px
 }
 
@@ -152,6 +156,7 @@ form input[type="submit"]:hover {
   border-radius: 4px;
 
   overflow: hidden;
+  background: url(../public/imagebackground.jpg);
 }
 
 .image img {
@@ -169,8 +174,7 @@ form input[type="submit"]:hover {
 .image__placeholder {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: url(../public/imagebackground.jpg);
+  
 }
 
 .image__placeholder p {

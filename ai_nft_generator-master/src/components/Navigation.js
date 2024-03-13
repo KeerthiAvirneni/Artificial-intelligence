@@ -10,7 +10,7 @@ const Navigation = ({ account, setAccount }) => {
     return (
         <nav>
             <div className='nav__brand'>
-                <h1>AI NFT Generator</h1>
+                <h1>AI NFT MINTING MARKETPLACE</h1>
             </div>
 
             {account ? (
